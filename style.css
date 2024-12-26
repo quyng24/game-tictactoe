@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #06052b;
+}
+.row-one {
+    display: flex;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    margin: 5px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset {
+    min-width: 150px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    background: #53e82a;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.3s;
+}
+.reset:hover {
+    transform: scale(0.9);
+}
+#winner-message {
+    font-size: 30px;
+    color: #fff;
+}
+.red {
+    color: #fe2525;
+}
+.green {
+    color: #2cda2c;
+}
